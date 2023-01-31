@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.bar{
+    display: flex;
+}
+.left{
+    flex: none;
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex: none;
+    width: 50%;
+}
+.bar ul{
+    list-style: none;
+}
+.bar li a{
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
+.container{
+    display: inline-block;
+    margin-top: 10em;
+}
+h1{
+    color: rgba(0, 0, 0, 0.7);
+    width:15em;
+    background: rgba(0, 0, 0, 0);
+    border: solid 3px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.colorcode{
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.5);
+}
+#changebutton{
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor:pointer;
+    margin-top: 1rem;
+}
